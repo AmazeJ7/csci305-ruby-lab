@@ -25,9 +25,10 @@ def process_file(file_name)
 			#Step 3: remove any and all punctuation
 			title.gsub!(/(\?|\¿|\!|\¡|\.|\;|\&|\@|\%|\#|\|)/, "")
 			#Step 4: filter out non english chars
-			#if /\w| |'/ == line
-			#else
-
+			if line =~ /^[\w\s']+\\n/
+			else
+				title = nil
+			end
 			#Step 5: set to lowercase
 			title.downcase!
 			puts title
