@@ -1,24 +1,28 @@
-Your name
+Johnny Gaddis
 CSCI-305
 
-10.
+10. The problem with this song title creation is that most titles get stuck in a loop. Every time a simple word comes up the title repeats itself. The phrases I have seen the most are "ready for you" and "of the world" repeating themselves.
 
-14.
+14. These titles devolve into repeating patterns due to two or more words having the same mcw. This leads to long song titles always.
 
-15.
+15. Amore, from question 11, was the only title with less than 20 words. This is because of the above question, the titles devolve into repeating patterns due to sharing mcw's.
 
-16.
+16. I fixed the repeating issue with randomness. I created another create title function that chooses words following the input at random. This lead to song titles that were not repetitive yet followed the biagram model. The solution leads to song titles that are around 6 words on average. Although this solution is not the most elegant, it leads to some hilarious song titles!
 
-19.
+17. Starting with "montana" I get: "montana blue o' morning dancing".
 
-20.
+18. Starting with "bob" I get: "bob montgomery pien remix girl life's".
 
-21.
+19. Starting with "bob" again I get: "bob jenny de xue ming old mainstreet". The title is different due to the randomness of the song title creation that I implemented.
 
-22.
+20. My favorite song title is: "fun is menstruates rum ft hassled miss at rain flying angels".
 
-23.
+21. I enjoy the freedom of ruby. There is no semicolons or even parentheses needed in many cases. It really opens up a lot of possibilities, and allows more style as a programmer.
 
-24.
+22. The way ruby doesn't require a lot of redundancies can be an issue. It's sometimes hard to read through ruby code. For example functions don't even need parentheses to run.
 
-25.
+23. I enjoyed this lab because it allows for freedom of coding practice. It also has some fun aspects to it by outputting some crazy strings of words. On a more serious note, this lab is very useful for future projects and problems. The powerful tools used in this lab will not be easily forgotten by us students.
+
+24. I spent 40ish hours on this lab.
+
+25. Absolutely. Any time I need to manipulate text files in the future ruby and regular expressions will be my goto tool.
